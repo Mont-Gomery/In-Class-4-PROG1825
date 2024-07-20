@@ -1,0 +1,168 @@
+/*Kyle-Jack Essien*/
+/* 8963634 */
+body{
+    background-color: hsla(40, 100%, 92%, 0.8) ;
+
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+.structural{
+ margin: 10px;
+ padding: 10px;
+
+}
+h1{
+    color: blue;
+ }
+
+h2{
+    color: rgb(249, 249, 91);
+    font-size: 2em;
+}
+header{
+background-color: hsl(115, 30%, 46%);
+
+}
+
+.content-wrapper {
+    display: flex;
+  }
+
+
+main{
+    background-color: hsl(295, 16%, 52%);
+    width: 68%;
+    float: left;
+    flex: 1;
+
+    }
+nav {
+    background-color: rgb(144, 125, 198);
+
+}
+    nav ul {
+        list-style: none;
+    }
+    nav li{
+        display: inline;
+    }
+    nav a {
+        border: 2px solid indigo;
+        color: indigo;
+        background-color: cornsilk;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    nav a:hover {
+        border-color: cornsilk;
+        color: cornsilk;
+        background-color: indigo;
+    }
+
+
+
+    aside ul{
+        list-style: none;
+        list-style-type: disc;
+    }
+    aside ul a:hover {
+        color: red;
+    }
+ul{
+    list-style: georgian;
+  }
+
+    li{
+        line-height:  2em;
+     }
+
+  li a{
+     color: rgba(0, 0, 0, 0.8);
+      }
+
+aside{
+    background-color: hsl(70, 45%, 78%);
+    width: 250px;
+    float: right;
+    margin-left: 2%;
+
+ 
+     }
+
+     main, aside {
+        height: auto; /* Remove fixed height */
+      }
+
+#par1{
+    color: rgb(100,45, 255);
+}
+
+#par2{
+    color: rgb(45, 123, 98);
+}
+
+#par3{
+    color: rgb(78, 123, 35);
+}
+a :hover{ 
+color: #456;
+}
+footer p{
+    font-size:small;
+}
+footer {
+    clear: both;
+    background-color: rgb(105, 215, 116);
+    padding: 15px;
+    margin-top: 12px;
+}
+
+form {
+    border: 5px dashed #4b0a69; /* Changing color as needed */
+    padding: 5%;
+    margin-bottom: 25%;
+    margin-right: 5%;
+  }
+
+  main, aside {
+    height: auto; /* Removing fixed height */
+  }
+
+  input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option,
+textarea {
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+label,
+legend,
+input[type="submit"] 
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+  }
+  
+  fieldset {
+    border: none;
+  }
